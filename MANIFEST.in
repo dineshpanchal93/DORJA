@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dorja *.css
+recursive-include dorja *.csv
+recursive-include dorja *.html
+recursive-include dorja *.ico
+recursive-include dorja *.js
+recursive-include dorja *.json
+recursive-include dorja *.md
+recursive-include dorja *.png
+recursive-include dorja *.py
+recursive-include dorja *.svg
+recursive-include dorja *.txt
+recursive-exclude dorja *.pyc
